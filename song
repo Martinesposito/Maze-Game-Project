@@ -1,2 +1,7 @@
-Axel%20Lundstrom%20-%20Axel%20Video%20Game
 
+# Load background music
+pygame.mixer.music.load("/Users/martinesposito/Desktop/mp3 music /Axel%20Lundstrom%20-%20Axel%20Video%20Game.mp3")
+pygame.mixer.music.play(-1)  # Play music in a loop
+
+# Load sound effects
+monster_sound = pygame.mixer.Sound("/Users/martinesposito/Desktop/mp3 music /Axel%20Lundstrom%20-%20Axel%20Video%20Game.mp3")
